@@ -3,9 +3,10 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
 :root{
-    --fonte1:verdana,Geneva,Tahoma,sans-serif;
+    --fonte1: Arial, Helvetica, sans-serif;
     --fonte2:'Passion One', cursive;
     --fonte3:'Sriracha',cursive;
 }
