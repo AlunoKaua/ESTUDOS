@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            padding: 5%;
+            height: 20%;
+            border: 1px solid black;
+            width: 40%;
+            align-items: start;
+        }
+     input{
+        position: absolute;
+        left: 20%;
+     }
+
+    </style>
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>meu primeiro Formulario</h1>
+    <form action="cadrasto.php" method="post" autocomplete="off" >
+   <p><label for="inome" class="Nome">Nome:</label>
+
+     <input type="text" name="Nome" id="Nome"></p>
+
+    <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="Sobrenome"></p>
+    <p><input type="submit" value="Enviar"></p>
+</form>
+</body>
+</html>
