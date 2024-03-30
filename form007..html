@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exempo de formulario</h1>
+    <form action="cadrasto.php">
+   <p>
+       <label for="iest">Estado</label>
+        <select
+
+        name="estado" id="iest">
+        <option value="" selected>---Escolha---</option>
+        <optgroup label="Região Sudeste">
+            <option value="AM">Amazonas</option>
+            <option value="BH">Belo-Horizonte</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="PA">Pará</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+
+       <opgtoup Label="Região sudeste">
+           <option value="MA">Maranhão</option>
+           <option value="PE">Pernabunco</option>
+           <option value="RN">Rio grande do norte</option>
+
+       </opgtoup>
+        </select>
+    <p>
+        <label for="iprof">Profisão:</label>
+        <input type="text" name="prof" list="instprof" >
+        <datalist>
+            <option value="ADM">Administrador</option>
+            <option value="TI">Programador</option>
+            <option value="BANC">Bancario</option>
+            <option value="PROF">Professor</option>
+        </datalist>
+    </p>
+
+
+   </p>
+   <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+   </p>
+    </form>
+</body>
+</html>
