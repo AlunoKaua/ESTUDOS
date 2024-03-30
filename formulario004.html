@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadrasto.php" autocomplete="on">
+
+<p>
+    <label for="imail">Email:</label>
+    <input type="email" name="Email" id="imail" autocomplete="email" required pattern="^\d{4,5}-\d{4}$" >
+</p>
+<p>
+    <label for="phone">Telefone</label>
+    <input type="tel" name="tel" id="itel" required pattern="^(d{2}\)\d{4,5-\d{4}$}">
+</p>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+ 
+    </form>
+</body>
+</html>
